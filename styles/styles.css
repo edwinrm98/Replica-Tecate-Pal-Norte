@@ -1,0 +1,73 @@
+:root {
+    --main-bg-color: rgb(0,0,0);
+    --main-text-color: rgb(255,255,255);
+}
+
+* {
+    font-family: "Special Gothic", sans-serif;
+    color: var(--main-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+.bg-color {
+    background-color: var(--main-bg-color);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.item-link:hover {
+    text-decoration: underline;
+}
+
+.dates {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* background: url('../assets/video/bg-video.mp4'); */
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dates__text {
+    z-index: 2;
+}
+
+.subt_lvl2 {
+    font-size: 50px;
+}
+
+.subt_lvl3 {
+    font-size: 35px;
+}
